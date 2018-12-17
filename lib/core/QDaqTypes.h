@@ -3,6 +3,7 @@
 
 #include "QDaqGlobal.h"
 
+#include <cmath>
 #include <QVector>
 #include <QExplicitlySharedDataPointer>
 #include <QMetaType>

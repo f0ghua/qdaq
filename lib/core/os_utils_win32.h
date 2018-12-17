@@ -3,6 +3,10 @@
 
 #include <sys/timeb.h>
 #define WIN32_LEAN_AND_MEAN
+#ifdef _WIN32_WINNT
+#undef _WIN32_WINNT
+#endif
+#define _WIN32_WINNT 0x0601
 #include <qt_windows.h>
 //#include <windows.h>
 #include <mmsystem.h>
